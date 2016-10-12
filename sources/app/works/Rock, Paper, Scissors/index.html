@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Preloader start  -->
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+	<!-- Preloader end  -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header>
+	<div class="container">
+		<h1>Rock, Paper, Scissors</h1>
+	</div>
+</header>
+
+<div class="content">
+	<div class="container">
+		<h2>Правила</h2>
+		<div class="left">
+			<img src="./img/Rock-paper-scissors-ru.svg.png" alt="Rock-paper-scissors" class="img-responsive">
+		</div>
+		<div class="right">
+			<p>Победитель определяется по следующим правилам:</p>
+			<ul>
+				<li>Камень побеждает ножницы («камень затупляет или ломает ножницы»)</li>
+				<li>Ножницы побеждают бумагу («ножницы разрезают бумагу»)</li>
+				<li>Бумага побеждает камень («бумага накрывает камень») это наиболее странное из всех правил, т.к. непонятно как бумага может победить камень "накрыванием".</li>
+			</ul>
+			<p>Если игроки показали одинаковый знак, то засчитывается ничья и игра переигрывается.</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<main>
+	<div class="container">
+		<h2>Игра</h2>
+		<h3>Выберите сложность: </h3>
+		<div class="level">
+			<fieldset>
+				<input id="Radio1" name="Radios" type="radio" value="easy">
+				<label for="Radio1">EASY</label>
+				<input id="Radio2" name="Radios" type="radio" value="normal" checked="checked">
+				<label for="Radio2">NORMAL</label>
+				<input id="Radio3" name="Radios" type="radio" value="hard">
+				<label for="Radio3">HARD</label>
+			</fieldset>
+		</div>
+		<h3>Счет:</h3>
+		<p id="victory" class="score">Побед: 0</p>
+		<p id="loss" class="score">Проиграшей: 0</p>
+		<p id="draw" class="score">Ничьих: 0</p>
+		<h3>Сделайте свой выбор: </h3>
+		<div class="choise">
+			<img src="./img/3.png" alt="3" id="rock">
+		</div>
+		<div class="choise">
+			<img src="./img/1.png" alt="1" id="scissors">
+		</div>
+		<div class="choise">
+			<img src="./img/2.png" alt="2" id="paper">
+		</div>
+		<p id="comp" class="resultat"></p>
+		<p id="user" class="resultat"></p>
+		<p id="result" class="resultat"></p>
+		<div class="br" id="other_id"></div>
+	</div>
+</main>
+
+	<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/html5shiv/respond.min.js"></script>
+<![endif]-->
+	<!-- <script src="js/libs.min.js"></script> -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>

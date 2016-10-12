@@ -1,0 +1,96 @@
+body {
+  background-image: url(http://www.zastavki.com/pictures/originals/2014/Space_Planet_in_the_background_galaxy_079310_.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646; }
+
+ul li {
+  list-style: none;
+}
+.horizontal .tabs {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.horizontal .tabs ul {
+  margin: 0 auto;
+}
+
+.horizontal .tabs li {
+  width: 100px;
+}
+
+.horizontal .content {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.vertical .tabs {
+  float: left;
+  overflow: hidden;
+  padding: 1em;
+  width: 30%;
+}
+
+.vertical .tabs ul {
+  margin: 0;
+  padding: 0;
+}
+
+.vertical .tabs li {
+  width: 100%;
+}
+
+.vertical .content {
+  float: left;
+  padding: 1em;
+  width: 70%;
+}
+
+.vertical .content ul {
+  padding: 0;
+}
+
+.horizontal,
+.vertical {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.horizontal ul,
+.vertical ul {
+  padding: 0;
+}
+
+.horizontal .tabs li,
+.vertical .tabs li {
+  background: #fff;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #5571cc;
+  text-align: center;
+}
+
+.horizontal .tabs li:hover,
+.vertical .tabs li:hover {
+  cursor: pointer;
+}
+
+.horizontal .tabs li.active,
+.vertical .tabs li.active {
+  background: #5571cc;
+  color: #fff;
+}
+
+.content ul {
+  margin: 0;
+}

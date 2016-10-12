@@ -1,0 +1,355 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1170px) {
+
+  nav ul{
+    text-align: center;
+  }
+  .menu{
+    /*width: 60%;*/
+    display: none;
+    float: left;
+  }
+
+  .drop{
+    box-sizing: border-box;
+    display: block;
+  }
+  .phone{
+    display: none;
+  }
+  .phone:hover .phone_hidden{
+    display: none;
+  }
+  .phone i{
+    display: none;
+  }
+  .right{
+    float: right;
+    padding-right: 30px;
+  }
+  .basket{
+    display: none;
+  }
+  .search{
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+  }
+  .account{
+    box-sizing: border-box;
+    width: 40%;
+    float: left;
+  }
+  .popular_products{
+    display: none;
+  }
+  .product{
+    display: inline-block;
+    width: 50%;
+    float: left;
+  }
+    .top_banner{
+      padding-left: 20px;
+      display: none;
+    }
+  .product:nth-of-type(4){
+    /**/
+    display: inline-block;
+  }
+  .left_banner{
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+  .aside{
+    display: none;
+  }
+  .slider{
+    display: block;
+  }
+  button.slick-next,
+  button.slick-prev,
+  .slick-next,
+  .slick-prev{
+    display: none !important;
+  }
+  .content .container{
+    height: 100%;
+  }
+  img.sl_img{
+    width: 100%;
+  }
+  .drop {
+  background-color: #E31837;
+  }
+
+  .burger-input {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  position: absolute;
+  }
+  .burger-input + label {
+  width: 30px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+  }
+  .burger-input + label:after, .burger-input + label:before,
+  .burger-input + label .burger {
+  content: '';
+  width: 25px;
+  height: 4px;
+  display: block;
+  margin: 3px auto;
+  border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  }
+  .burger-input:checked + label {
+  top: 4px;
+  }
+  .burger-input:checked + label:before {
+  -webkit-transform: translateY(2px) rotate(135deg);
+  -moz-transform: translateY(2px) rotate(135deg);
+  -ms-transform: translateY(2px) rotate(135deg);
+  -o-transform: translateY(2px) rotate(135deg);
+  transform: translateY(2px) rotate(135deg);
+  }
+  .burger-input:checked + label:after {
+  -webkit-transform: translateY(-12px) rotate(-135deg);
+  -moz-transform: translateY(-12px) rotate(-135deg);
+  -ms-transform: translateY(-12px) rotate(-135deg);
+  -o-transform: translateY(-12px) rotate(-135deg);
+  transform: translateY(-12px) rotate(-135deg);
+  }
+  .burger-input:checked + label .burger {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  }
+  .burger-input:checked ~ nav {
+  display: block;
+  }
+  .burger-input:checked ~ nav li {
+  display: block;
+  text-align: center;
+  }
+
+  nav {
+  display: none;
+  }
+
+  .drop ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  }
+  .drop ul a {
+  display: block;
+  padding-top: 5px;
+  color: #3d3d3d;
+  /*background-color: #6281d8;*/
+  -webkit-transition: background-color 250ms ease-in-out;
+  -moz-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+  }
+  ul a:hover {
+  /*background-color: #7691dd;*/
+  }
+
+  a {
+  text-decoration: none;
+  }
+
+  *, :before, :after {
+  box-sizing: border-box;
+  }
+  .novelty{
+    display: none;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    ul.display_none{
+      display: none;
+      float: left;
+    }
+    .top_header a{
+      padding: 0 auto;
+    }
+    p.center{
+      display: block;
+      text-align: center;
+    }
+    .search{
+      width: 60%;
+    }
+    .search input[type="search"]{
+      width: 70%;
+    }
+img.left_banner{
+  width: 100%;
+  height: auto;
+}
+  .drop{
+    box-sizing: border-box;
+    display: block;
+  }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .left-banner{
+      padding-right: 0px;
+    }
+    .Responsive_Tabs .container{
+      margin-top: 0;
+    }
+    .product{
+      width: 50%;
+    }
+  .product:nth-of-type(4),
+  .product:nth-of-type(3){
+    display: block;
+  }
+}
+
+@media (min-width : 600px) and (max-width : 972px) {
+.product:nth-of-type(4),
+.product:nth-of-type(3){
+  /*display: none;*/
+}
+.product:nth-of-type(2){
+  clear: right;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .menu{
+    width: 100%;
+  }
+  .phone{
+    display: none;
+  }
+  .phone i{
+    position: relative;
+    left: 10px;
+  }
+  p.center{
+    text-align: center;
+  }
+  .search{
+    width: 100%;
+  }
+  .search input[type="search"]{
+    width: 70%;
+  }
+  .account{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0;
+    padding-left: 35%;
+  }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.left_banner{
+  padding-right: 0px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.container {
+  width: 1170px !important;
+}
+.drop{
+  display: block;
+}
+  .product{
+    display: none;
+  }
+
+}
+@media (min-width : 992px) and (max-width : 1170px){
+    .left_banner{
+      width: 50%;
+      margin-left: 25%;
+    }
+}
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1170px) {
+	.left_banner{
+    max-height: 420px;
+    padding-right: 20px;
+  }
+  .content .container{
+  	height: 550px;
+  }
+  .slider{
+  	height: 552px;
+  }
+  .drop{
+    display: none;
+  }
+  .product:nth-child(1),
+  .product:nth-child(2){
+    display: inline-block;
+  }
+  .add_clear_480px .product{
+    width: 30%;
+  }
+  .left_banner{
+    padding-left: 10px;
+  }
+}
+
+/*==========  screen orientation  ==========*/
+
+/*landscape orientation*/
+@media screen and (orientation: landscape) {
+
+}
+
+/*portrait orientation*/
+@media screen and (orientation: portrait) {
+
+}

@@ -1,0 +1,50 @@
+/* =====  Base styles Start  ===== */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: RalewayRegular, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  position: relative;
+  min-width: 320px;
+  -webkit-font-smoothing: antialised;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid{
+  color: green;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.button:active {
+  transform: translateY(2px);
+}
+
+/* =====  Base styles End  ===== */

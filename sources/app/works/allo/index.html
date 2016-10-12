@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>Allo.ua</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/media.css">
+	<!-- Preloader start  -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+		});</script>
+		<!-- Preloader end  -->
+</head>
+<body>
+<div id="p_prldr" class="setting_pr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
+<!-- Навигация -->
+
+<nav class="container container-fluid_center">
+		<ul>
+			<li><a href="#">Магазины</a></li>
+			<li><a href="#">Доставка и оплата</a></li>
+			<li><a href="#">Гарантия</a></li>
+			<li><a href="#">Кредит</a></li>
+			<li><a href="#">Помощь</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li class="action"><a href="#">Акции</a></li>
+		</ul>
+</nav>
+<div class="clear"></div>
+<!-- header -->
+<header>
+	<div class="top_header">
+		<div class="container container-fluid_center">
+			<p class="center"><a href="#"><img src="./img/logo.png" alt="Allo"></a></p>
+			<ul class="display_none">
+				<li><a href="#"><img src="./img/icons/Rassrochka.png" alt="Rassrochka"><span class="vertical">Рассрочка</span></a></li>
+				<li><a href="#"><img src="./img/icons/Allo_obmin_1.png" alt="Allo_obmin_1" /><span class="vertical">Алло-Обмен</span></a></li>
+				<li><a href="#"><img src="./img/icons/Garantiya_1.png" alt="Garantiya_1" /><span class="vertical">Гарантия низкой цены</span></a></li>
+				<li><a href="#"><img src="./img/icons/magazine.png" alt="magazine" /><span class="vertical">Забери в магазине</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear"></div>
+<div class="container container-fluid_center">
+  <div class="drop">
+	<input type="checkbox" id="click" class="burger-input"/>
+  <label for="click">
+    <div class="burger"></div>
+  </label>
+  <nav>
+    <ul>
+      <li><a href="#">Телефоны</a></li>
+			<li><a href="#">Планшеты</a></li>
+			<li><a href="#">Apple</a></li>
+			<li><a href="#">Sumsung</a></li>
+			<li><a href="#">Гаджеты</a></li>
+			<li><a href="#">Ноутбуки</a></li>
+			<li><a href="#">Телевизоры</a></li>
+			<li><a href="#">Фото</a></li>
+			<li><a href="#">Бытовая техника</a></li>
+			<li><a href="#">Спорт и туризм</a></li>
+			<li><a href="#">Дом, сад, ремонт</a></li>
+			<li><a href="#">Часы и украшения</a></li>
+			<li><a href="#">Товары для детей</a></li>
+			<li><a href="#">Детская одежда</a></li>
+			<li><a href="#">Автотовары</a></li>
+    </ul>
+  </nav>
+	</div>
+</div>
+	<div class="bottom_header">
+		<div class="container container-fluid_center">
+			<div class="menu">
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+				<span>Каталог товаров</span>
+			</div>
+			<div class="phone">
+				<div class="right">
+					<h3>0 800 300 100</h3>
+					<i class="fa fa-caret-down" aria-hidden="true"></i>
+				</div>
+
+
+				<!-- Выпадающее меню -->
+				<div class="phone_hidden">
+					<ul class="country_ul">
+						<li>Украина</li>
+						<li>Киев</li>
+						<li>Днепропетровск</li>
+					</ul>
+					<ul class="number_ul">
+						<li>(0-800) 300-100</li>
+						<li>(0-44) 459-7075</li>
+						<li>(0-56) 790-1234</li>
+					</ul>
+					<p>*Звонки со стационарных телефонов, а также мобильных операторов Киевстар, МТС и Life, бесплатны по всей Украине.</p>
+				</div>
+			</div>
+
+
+			<div class="search">
+				<p class="center">
+					<input type="search" placeholder="Что вы хотите купить?" >
+					<button type="submit" class="submit">Найти</button>
+				</p>
+			</div>
+			<div class="account">
+				<i class="fa fa-user fa-2x user_i" aria-hidden="true"></i>
+				<div class="text">
+					<span>Ваш</span><br>
+					<span>акаунт</span>
+				</div>
+				<i class="fa fa-caret-down caret_i" aria-hidden="true"></i>
+			</div>
+
+			<div class="basket">
+				<i class="fa fa-shopping-cart fa-fw fa-2x basket_i"></i>
+					<div class="text">
+						<span>Корзина</span><br><span>пуста</span>
+					</div>
+					<span class="number">0</span>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</header>
+
+
+
+<div class="content ">
+	<div class="container container-fluid_center">
+		<div class="aside">
+			<ul>
+				<li>Телефоны<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Планшеты<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Apple<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Sumsung<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Гаджеты<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Ноутбуки<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Телевизоры<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Фото<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Бытовая техника<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Спорт и туризм<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Дом, сад, ремонт<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Часы и украшения<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Товары для детей<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Детская одежда<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Автотовары<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<!-- <li>Платежи и сервесы<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Мобильный интернет<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+				<li>Распродажа<i class="fa fa-angle-right" aria-hidden="true"></i></li> -->
+			</ul>
+		</div>
+
+		<div class="slider">
+			<!-- <div class="slogan">
+				<section class="sg">
+					<div class="sg_sl">Мы создаем условия для возникновения и внедрения новых идей.</div>
+					<div class="sg_sl">Мы – надежный партнер и дорожим этим статусом.</div>
+					<div class="sg_sl">Мы уважаем, развиваем и ценим профессиональных сотрудников, способных достигать цели.</div>
+					<div class="sg_sl">Мы внедряем инновации, создавая ценность для клиентов, партнеров, инвесторов и персонала.</div>
+					<div class="sg_sl">Мы продвигаем мир цифровых технологий в вашу жизнь и бизнес.</div>
+					<div class="sg_sl">Мы улучшаем качество жизни наших клиентов, сотрудников, партнеров и всего общества.</div>
+				</section>
+			</div> -->
+			<section class="sl ">
+				<div class="sl__slide"><a href="#"><img src="./img/slider/0_komissiya_W_5.JPG" alt="img_1" class="sl_img img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/best_from_sams_W_2.JPG" alt="img_2" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/iphone_SE_W_1.JPG" alt="img_3" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/Lenovo-TAB-2-A7-30_W_1.JPG" alt="img_4" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/megdiv_W.JPG" alt="img_5" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/moment_skidka_W_4.JPG" alt="img_6" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/Obmin00_W.JPG" alt="img_7" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/rassrochka_TV_W_1.JPG" alt="img_8" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/Sams_S7-S7edge_VR_W.JPG" alt="img_9" class="sl_img  img-responsive"></a></div>
+				<div class="sl__slide"><a href="#"><img src="./img/slider/Xperia_X_W_3.JPG" alt="img_10" class="sl_img  img-responsive"></a></div>
+			</section>
+		</div>
+		<div class="clear"></div>
+		<div class="background_button1"></div>
+		<div class="background_button2"></div>
+	</div>
+</div>
+
+<div class="Responsive_Tabs">
+	<div class="container container-fluid_center">
+		<dl class="responsive-tabs">
+		  <dt>Бытовая техника</dt>
+		  <dd>
+				<div class="row">
+					<div class="design technik">
+						<p class="center"><img src="img/BRAUN.png" alt="BRAUN" class="left_banner img-responsive"></p>
+						<img src="img/chaika.JPG" alt="Chaika" class="top_banner img-responsive">
+						<div class="add_clear_480px">
+							<div class="product">
+								<img src="./img/rotex_repc57-b.jpg" alt="rotex_repc57" class="img-responsive">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC57-B</p></a>
+								<span class="price">1292</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+							<div class="product">
+								<img src="./img/rotex_repc58-g.jpg" alt="rotex" class="img-responsive">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC58-G</p></a>
+								<span class="price">1329</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+							<div class="clearfloat"></div>
+						</div>
+						<div class="product">
+							<img src="./img/rotex_rmc507-b.jpg" alt="rotex_rmc507 class="img-responsive"">
+							<div class="clear"></div>
+							<a href="#"><p>Бытовая техника Rotex RMC507-B</p></a>
+							<span class="price">699</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/rotex_rmc507-b.jpg" alt="rotex_rmc507 class="img-responsive"">
+							<div class="clear"></div>
+							<a href="#"><p>Бытовая техника Rotex RMC507-B</p></a>
+							<span class="price">699</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+				</div>
+			</dd>
+
+		  <dt>Телефоны</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/Xperia_XA_L.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/iPhone_6ref_R.jpg" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB space gray</p></a>
+							<span class="price">3999</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/j510fn_gold_standard_online_s-8.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Мобильный телефон Samsung Galaxy J5 2016 Duos 16Gb</p></a>
+							<span class="price">5999</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/sony_xperia_m4_aqua_ds_e2113_black_9.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Sony Xperia M4 <br>Aqua DS Black </p></a>
+						<span class="price">4999</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="product">
+						<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB</p></a>
+						<span class="price">3999</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+		  </dd>
+
+		  <dt>Планшеты</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/_07008-Sigma_L.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/iPad_Air_R.JPG" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/lenovo-tablet-tab-2-a7-30-front-20_1_2_2_1_1_2_1.jpg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Планшет Lenovo TAB 2 A7-30 7" 3G 8GB (59444592) Black</p></a>
+							<span class="price">2899</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/nomi_c07008_gray_4.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Планшет Nomi C07008 Sigma 7” 3G 4GB черно-серый</p></a>
+							<span class="price">1249</span></span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/06_sm-t560_front_brown_standard_online_s_1_.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Планшет Samsung Galaxy Tab E 9.6" 8Gb 3G Gold Brown</p></a>
+						<span class="price">5999</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="product">
+						<img src="./img/nomi_c07008_gray_4.jpg" alt="rotex" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Планшет Nomi C07008 Sigma 7” 3G 4GB черно-серый</p></a>
+						<span class="price">1249</span></span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+			</dd>
+
+		  <dt>Ноутбуки</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/Komp_Mous_L.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/PrintFlash_R.JPG" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/162965.jpg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80QQ004NUA) Black</p></a>
+							<span class="price">7735</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/136803.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Ноутбук Lenovo IdeaPad G50-30 (80G001M2UA)</p></a>
+							<span class="price">6895</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/162961.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80MJ003YUA) Black</p></a>
+						<span class="price">6339</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="product">
+						<img src="./img/136803.jpg" alt="rotex" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Ноутбук Lenovo IdeaPad G50-30 (80G001M2UA)</p></a>
+						<span class="price">6895</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+		  </dd>
+
+			<dt>Телефизоры</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/Samsung_UE40J5200_L_1.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/Nomi_LED-32U10_R_3.JPG" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/lg_32lf510u_1.jpg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Телевизор LG 32LF510U Тип телевизора: LED</p></a>
+							<span class="price">6999</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/hi-res_01_4.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Телевизор LG 32LF580U Тип телевизора: LED</p></a>
+							<span class="price">8799</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/uf69_uf63_lf59_lf54_b_high_01_inscreen_lf59_.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Телевизор LG 43LF590V Тип телевизора: LED</p></a>
+						<span class="price">14999</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="product">
+						<img src="./img/hi-res_01_4.jpg" alt="rotex" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Телевизор LG 32LF580U Тип телевизора: LED</p></a>
+						<span class="price">8799</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+		  </dd>
+
+			<dt>Спорт и туризм</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/velo_Cronus_L_1.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/vel_rassrochka_R.JPG" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/airon_procam_black.jpg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Экшн-камера AIRON ProCam black 4822356754489</p></a>
+							<span class="price">1777</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/proaction_w9_full_hd_black_.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Экшн-камера ATRIX ProAction W9 Full HD Black</p></a>
+							<span class="price">1699</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/proaction_w9_full_hd_silver__2.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Экшн-камера ATRIX ProAction W9 Full HD (silver)</p></a>
+						<span class="price">1699</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="product">
+						<img src="./img/proaction_w9_full_hd_black_.jpg" alt="rotex" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Экшн-камера ATRIX ProAction W9 Full HD Black</p></a>
+						<span class="price">1699</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+		  </dd>
+
+			<dt>Гаджеты</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/PlayStation4_1Tb_L.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/Samsung_Gear_S2_Sport_R.JPG" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/mark4882_new_1.jpg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Фитнес-браслет Nomi SB-01 Fit Черный</p></a>
+							<span class="price">499</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/mi_band_23_4419_1422359519.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Фитнес-браслет Xiaomi Mi Band Black</p></a>
+							<span class="price">359</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/samsung_gear_fit_2_2_cr.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Фитнес-браслет Samsung Gear Fit2 Blue</p></a>
+						<span class="price"></span><span class="uah"></span>
+						<button class="buy">Предзаказ</button>
+					</div>
+					<div class="product">
+						<img src="./img/mi_band_23_4419_1422359519.jpg" alt="rotex" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Фитнес-браслет Xiaomi Mi Band Black</p></a>
+						<span class="price">359</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+		  </dd>
+
+			<dt>Дом, сад, огород</dt>
+		  <dd>
+				<div class="design technik">
+					<img src="img/Kultiv_Trimer01_L.JPG" alt="BRAUN" class="left_banner">
+					<img src="img/Vitals-Master-EZP-321s_R.JPG" alt="Chaika" class="top_banner">
+					<div class="add_clear_480px">
+						<div class="product">
+							<img src="./img/44f15f2d-283c-11e3-bdb9-f4b7e2e71010_trk0000000004761-850x638.jpeg" alt="rotex_repc57" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Комплект постельного белья Classi 1,5 Сп. 145Х210 Susan </p></a>
+							<span class="price">750</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="product">
+							<img src="./img/9f70995a.jpg" alt="rotex" class="img-responsive">
+							<div class="clear"></div>
+							<a href="#"><p>Кентавр СК-1438Э (47664) Мощность двигателя, кВт: 1.4;</p></a>
+							<span class="price">1438</span><span class="uah"> грн</span>
+							<button class="buy">Купить</button>
+						</div>
+						<div class="clearfloat"></div>
+					</div>
+					<div class="product">
+						<img src="./img/0f0fe393.jpg" alt="rotex_rmc507" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Цепная пила Кентавр БП-5225ТН\" (2шт+2ц)</p></a>
+						<span class="price">1549</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="product">
+						<img src="./img/9f70995a.jpg" alt="rotex" class="img-responsive">
+						<div class="clear"></div>
+						<a href="#"><p>Кентавр СК-1438Э (47664) Мощность двигателя, кВт: 1.4;</p></a>
+						<span class="price">1438</span><span class="uah"> грн</span>
+						<button class="buy">Купить</button>
+					</div>
+					<div class="clearfloat"></div>
+				</div>
+		  </dd>
+		</dl>
+	</div>
+</div>
+
+<!--  -->
+<!-- novelty -->
+<div class="novelty">
+	<div class="container container-fluid_center">
+		<h4 class="h4">Гoрячие новинки</h4>
+		<div class="tabs">
+			<div class="menu2">
+				<br id="tab-2" />
+				<br id="tab-3" />
+				<br id="tab-4" />
+				<br id="tab-5" />
+				<br id="tab-6" />
+				<br id="tab-7" />
+				<a href="#tab-1">Телефоны</a>
+				<a href="#tab-2">Планшеты</a>
+				<a href="#tab-3">Телевизоры</a>
+				<a href="#tab-4">Дом, сад ремонт</a>
+				<a href="#tab-5">Бытовая техника</a>
+				<a href="#tab-6">Спорт и туризм</a>
+				<a href="#tab-7">Гаджеты</a>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/j510fn_gold_standard_online_s-8.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Samsung Galaxy J5 2016 Duos 16Gb</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB space gray</p></a>
+								<span class="price">13999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/sony_xperia_m4_aqua_ds_e2113_black_9.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Sony Xperia M4 <br>Aqua DS Black </p></a>
+								<span class="price">4999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/j510fn_gold_standard_online_s-8.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Samsung Galaxy J5 2016 Duos 16Gb</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/j510fn_gold_standard_online_s-8.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Samsung Galaxy J5 2016 Duos 16Gb</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB space gray</p></a>
+								<span class="price">13999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB space gray</p></a>
+								<span class="price">13999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/sony_xperia_m4_aqua_ds_e2113_black_9.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Sony Xperia M4 <br>Aqua DS Black </p></a>
+								<span class="price">4999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/j510fn_gold_standard_online_s-8.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Samsung Galaxy J5 2016 Duos 16Gb</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB space gray</p></a>
+								<span class="price">13999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/j510fn_gold_standard_online_s-8.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Samsung Galaxy J5 2016 Duos 16Gb</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/apple_iphone_6_grey_space_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Мобильный телефон Apple iPhone 6 16GB space gray</p></a>
+								<span class="price">13999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/06_sm-t560_front_brown_standard_online_s_1_.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Samsung Galaxy Tab E 9.6" 8Gb 3G Gold Brown</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/nomi_c07008_gray_4.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Nomi C07008 Sigma 7” 3G 4GB черно-серый</p></a>
+								<span class="price">1249</span></span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/lenovo-tablet-tab-2-a7-30-front-20_1_2_2_1_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Lenovo TAB 2 A7-30 7" 3G 8GB (59444592) Black</p></a>
+								<span class="price">2899</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/06_sm-t560_front_brown_standard_online_s_1_.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Samsung Galaxy Tab E 9.6" 8Gb 3G Gold Brown</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/lenovo-tablet-tab-2-a7-30-front-20_1_2_2_1_1_2_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Lenovo TAB 2 A7-30 7" 3G 8GB (59444592) Black</p></a>
+								<span class="price">2899</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/nomi_c07008_gray_4.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Nomi C07008 Sigma 7” 3G 4GB черно-серый</p></a>
+								<span class="price">1249</span></span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/06_sm-t560_front_brown_standard_online_s_1_.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Samsung Galaxy Tab E 9.6" 8Gb 3G Gold Brown</p></a>
+								<span class="price">5999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/nomi_c07008_gray_4.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Планшет Nomi C07008 Sigma 7” 3G 4GB черно-серый</p></a>
+								<span class="price">1249</span></span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/lg_32lf510u_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Телевизор LG 32LF510U Тип телевизора: LED</p></a>
+								<span class="price">6999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+								<div class="product">
+									<img src="./img/hi-res_01_4.jpg" alt="rotex">
+									<div class="clear"></div>
+									<a href="#"><p>Телевизор LG 32LF580U Тип телевизора: LED</p></a>
+									<span class="price">8799</span><span class="uah"> грн</span>
+									<button class="buy">Купить</button>
+								</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/uf69_uf63_lf59_lf54_b_high_01_inscreen_lf59_.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Телевизор LG 43LF590V Тип телевизора: LED</p></a>
+								<span class="price">14999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/lg_32lf510u_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Телевизор LG 32LF510U Тип телевизора: LED</p></a>
+								<span class="price">6999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+								<div class="product">
+									<img src="./img/hi-res_01_4.jpg" alt="rotex">
+									<div class="clear"></div>
+									<a href="#"><p>Телевизор LG 32LF580U Тип телевизора: LED</p></a>
+									<span class="price">8799</span><span class="uah"> грн</span>
+									<button class="buy">Купить</button>
+								</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/uf69_uf63_lf59_lf54_b_high_01_inscreen_lf59_.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Телевизор LG 43LF590V Тип телевизора: LED</p></a>
+								<span class="price">14999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/lg_32lf510u_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Телевизор LG 32LF510U Тип телевизора: LED</p></a>
+								<span class="price">6999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/uf69_uf63_lf59_lf54_b_high_01_inscreen_lf59_.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Телевизор LG 43LF590V Тип телевизора: LED</p></a>
+								<span class="price">14999</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/44f15f2d-283c-11e3-bdb9-f4b7e2e71010_trk0000000004761-850x638.jpeg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Комплект постельного белья Classi 1,5 Сп. 145Х210 Susan </p></a>
+								<span class="price">750</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/0f0fe393.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Цепная пила Кентавр БП-5225ТН\" (2шт+2ц)</p></a>
+								<span class="price">1549</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/44f15f2d-283c-11e3-bdb9-f4b7e2e71010_trk0000000004761-850x638.jpeg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Комплект постельного белья Classi 1,5 Сп. 145Х210 Susan </p></a>
+								<span class="price">750</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/0f0fe393.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Цепная пила Кентавр БП-5225ТН\" (2шт+2ц)</p></a>
+								<span class="price">1549</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/9f70995a.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Кентавр СК-1438Э (47664) Мощность двигателя, кВт: 1.4;</p></a>
+								<span class="price">1438</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/0f0fe393.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Цепная пила Кентавр БП-5225ТН\" (2шт+2ц)</p></a>
+								<span class="price">1549</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/44f15f2d-283c-11e3-bdb9-f4b7e2e71010_trk0000000004761-850x638.jpeg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Комплект постельного белья Classi 1,5 Сп. 145Х210 Susan </p></a>
+								<span class="price">750</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/9f70995a.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Кентавр СК-1438Э (47664) Мощность двигателя, кВт: 1.4;</p></a>
+								<span class="price">1438</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/9f70995a.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Кентавр СК-1438Э (47664) Мощность двигателя, кВт: 1.4;</p></a>
+								<span class="price">1438</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/0f0fe393.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Цепная пила Кентавр БП-5225ТН\" (2шт+2ц)</p></a>
+								<span class="price">1549</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/44f15f2d-283c-11e3-bdb9-f4b7e2e71010_trk0000000004761-850x638.jpeg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Комплект постельного белья Classi 1,5 Сп. 145Х210 Susan </p></a>
+								<span class="price">750</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/0f0fe393.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Цепная пила Кентавр БП-5225ТН\" (2шт+2ц)</p></a>
+								<span class="price">1549</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc57-b.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC57-B</p></a>
+								<span class="price">1292</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_rmc507-b.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex RMC507-B</p></a>
+								<span class="price">699</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc58-g.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC58-G</p></a>
+								<span class="price">1329</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_rmc507-b.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex RMC507-B</p></a>
+								<span class="price">699</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc57-b.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC57-B</p></a>
+								<span class="price">1292</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc58-g.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC58-G</p></a>
+								<span class="price">1329</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc57-b.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC57-B</p></a>
+								<span class="price">1292</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc58-g.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC58-G</p></a>
+								<span class="price">1329</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_rmc507-b.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex RMC507-B</p></a>
+								<span class="price">699</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/rotex_repc57-b.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Бытовая техника Rotex REPC57-B</p></a>
+								<span class="price">1292</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/mark4882_new_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Nomi SB-01 Fit Черный</p></a>
+								<span class="price">499</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/samsung_gear_fit_2_2_cr.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Samsung Gear Fit2 Blue</p></a>
+								<span class="price"></span><span class="uah"></span>
+								<button class="buy">Предзаказ</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/mi_band_23_4419_1422359519.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Xiaomi Mi Band Black</p></a>
+								<span class="price">359</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/mark4882_new_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Nomi SB-01 Fit Черный</p></a>
+								<span class="price">499</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/samsung_gear_fit_2_2_cr.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Samsung Gear Fit2 Blue</p></a>
+								<span class="price"></span><span class="uah"></span>
+								<button class="buy">Предзаказ</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/mi_band_23_4419_1422359519.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Xiaomi Mi Band Black</p></a>
+								<span class="price">359</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/mark4882_new_1.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Nomi SB-01 Fit Черный</p></a>
+								<span class="price">499</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/mi_band_23_4419_1422359519.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Фитнес-браслет Xiaomi Mi Band Black</p></a>
+								<span class="price">359</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top_line">
+					<div class="prod_sl">
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162965.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80QQ004NUA) Black</p></a>
+								<span class="price">7735</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/136803.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad G50-30 (80G001M2UA)</p></a>
+								<span class="price">6895</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162961.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80MJ003YUA) Black</p></a>
+								<span class="price">6339</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162965.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80QQ004NUA) Black</p></a>
+								<span class="price">7735</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/136803.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad G50-30 (80G001M2UA)</p></a>
+								<span class="price">6895</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162961.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80MJ003YUA) Black</p></a>
+								<span class="price">6339</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162965.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80QQ004NUA) Black</p></a>
+								<span class="price">7735</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/136803.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad G50-30 (80G001M2UA)</p></a>
+								<span class="price">6895</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162961.jpg" alt="rotex_rmc507">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80MJ003YUA) Black</p></a>
+								<span class="price">6339</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/162965.jpg" alt="rotex_repc57">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad 100-15 (80QQ004NUA) Black</p></a>
+								<span class="price">7735</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+						<div class="sl_card">
+							<div class="product">
+								<img src="./img/136803.jpg" alt="rotex">
+								<div class="clear"></div>
+								<a href="#"><p>Ноутбук Lenovo IdeaPad G50-30 (80G001M2UA)</p></a>
+								<span class="price">6895</span><span class="uah"> грн</span>
+								<button class="buy">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<!-- bottom_menu -->
+<div class="container bottom_menu container-fluid_center">
+	<div class="row">
+		<div class=" col-lg-3 col-sm-6 col-xs-12">
+			<ul>
+				<li><a href="#">Смартфоны</a></li>
+				<li><a href="#">Мобильные телефоны</a></li>
+				<li><a href="#">Планшеты</a></li>
+				<li><a href="#">Ноутбуки</a></li>
+				<li><a href="#">Электронные книги</a></li>
+			</ul>
+			<div class="clearfloat"></div>
+		</div>
+		<div class=" col-lg-3 col-sm-6 col-xs-12">
+			<ul>
+				<li><a href="#">Телевизоры</a></li>
+				<li><a href="#">Фотоаппараты</a></li>
+				<li><a href="#">MP3/MP4 плейеры</a></li>
+				<li><a href="#">Wi-fi-роутеры</a></li>
+				<li><a href="#">Видеорегистраторы</a></li>
+			</ul>
+			<div class="clearfloat"></div>
+		</div>
+		<div class=" col-lg-3 col-sm-6 col-xs-12">
+			<ul>
+				<li><a href="#">Мультиварки</a></li>
+				<li><a href="#">Микроволновые печи</a></li>
+				<li><a href="#">Блендеры</a></li>
+				<li><a href="#">Электрочайники</a></li>
+				<li><a href="#">Мясорубки</a></li>
+			</ul>
+			<div class="clearfloat"></div>
+		</div>
+		<div class="bottom_menu_ul col-lg-3 col-sm-6  col-xs-12">
+			<ul>
+				<li><a href="#">Пылесосы</a></li>
+				<li><a href="#">Фены и приборы для укладки волос</a></li>
+				<li><a href="#">Стиральные машины</a></li>
+				<li><a href="#">Холодильники</a></li>
+				<li><a href="#">Утюги и паровые системы</a></li>
+			</ul>
+			<div class="clearfloat"></div>
+		</div>
+	</div>
+	<div class="clearfloat"></div>
+</div>
+
+<!-- reviews -->
+<div class="container container-fluid_center">
+	<div class="reviews">
+		<p>Добро пожаловать в интернет – магазин цифровой техники и бытовой электроники allo.ua! <br>
+		Нашим основным преимуществом является лучший ассортимент, удобство покупки онлайн, отличные цены и гибкие возможности доставки.
+		На нашем сайте вы сможете выбрать и купить смартфоны самых популярных брендов, подобрать самый подходящий для себя планшет,
+		познакомиться и приобрести современные модели фототехники и ноутбуков, купить умный телевизор за разумные деньги.
+		И это только малая часть товаров, которые вы сможете найти в один клик в нашем интернет – магазине Алло.
+		Также, хотим с радостью вам предложить посетить раздел Бытовой техники, в котором представлен широкий выбор холодильников,
+		стиральных машин, микроволновых печей, пылесосов и прочей необходимой техники в быту. <br> Существенным нашим достоинством перед
+		прочими интернет – магазинами является возможность забрать Ваш заказ из любого розничного магазина Алло. Это действительно
+		отличная возможность сэкономить время, так как благодаря удобному расположению наших салонов, выбрать самый ближайший для вас
+		магазин Алло не составит никакого труда. Наши квалифицированные специалисты с радостью помогут настроить ваше новое устройство
+		и предложат дополнительные аксессуары! А еще хотим напомнить, что у вас всегда будет возможность купить технику с бесплатной
+		доставкой на дом. <br> На весь наш товар предоставляется фирменная гарантия от производителя. Оплатить свою покупку Вы сможете наличными
+		при получении товара. Также, на нашем сайте представлена возможность покупки в кредит/рассрочку. Если у Вас возникли какие – либо
+		вопросы – пожалуйста, звоните нам по номеру 0-800-300-100 (звонки со стационарных телефонов на территории Украины бесплатные) и наши
+		специалисты с радостью ответят на Ваши вопросы!</p>
+	</div>
+	<div class="clear"></div>
+</div>
+
+
+<div class="container container-fluid_center">
+	<footer>
+		<div class="company f_block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<h5>Компания Алло</h5>
+			<ul>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Вакансии</a></li>
+				<li><a href="#">Сеть магазинов</a></li>
+				<li><a href="#">Корпоративный отдел</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Условия использования сайта</a></li>
+				<li><a href="#">Сотрудничество с нами</a></li>
+			</ul>
+		</div>
+		<div class="help f_block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<h5>Помощь</h5>
+			<ul>
+				<li><a href="#">Вопросы и ответы</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">Гарантия и сервесные центры</a></li>
+				<li><a href="#">Купить в кредит</a></li>
+				<li><a href="#">Статьи и обзоры</a></li>
+				<li><a href="#">Оставьте отзыв о нашей работе</a></li>
+			</ul>
+		</div>
+		<div class="info f_block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<h5>Полезная информация</h5>
+			<ul>
+				<li><a href="#">АЛЛО-сервисы</a></li>
+				<li><a href="#">Корзина</a></li>
+				<li><a href="#">Просмотренные товары</a></li>
+				<li><a href="#">Подарочная карта Алло</a></li>
+				<li><a href="#">Мобильная версия</a></li>
+				<li><a href="#">Страхование платежных карт</a></li>
+			</ul>
+		</div>
+		<div class="representative f_block col-lg-3 col-md-6 col-sm-6 col-xs-12">
+			<h5>Официальные представители:</h5>
+			<ul class="r_block_1">
+				<li><a href="#"></a><img src="./img/footer/SAPS_Sticker.gif" alt="sumsumg"></li>
+				<li><a href="#"></a><img src="./img/footer/lg-autorized.png" alt="lg"></li>
+				<li><a href="#"><img src="./img/footer/2000px-Huawei.svg_.png" alt="Huawei"></a></li>
+				<li><a href="#"><img src="./img/footer/nokia.png" alt="nokia" class="nokia"></a></li>
+			</ul>
+			<div class="clear"></div>
+			<h6>Мы принимаем</h6>
+			<ul class="r_block_2">
+				<li><a href="#"><img src="./img/footer/MasterCard_Logo.svg.png" alt="MasterCard_Logo"></a></li>
+				<li><a href="#"><img src="./img/footer/index.jpg" alt="Visa"></a></li>
+			</ul>
+			<div class="clear"></div>
+			<p>&copy OOO "Алло" 1998-2016.</p>
+			<p>Все права защищены.</p>
+		</div>
+		<div class="clearfloat"></div>
+	</footer>
+	<div class="clearfloat"></div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/html5shiv/respond.min.js"></script>
+<![endif]-->
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+///* =====  CSS media query Start  ===== */
+//
+///* =====  Desktop First Method  ===== */
+//
+// Large Devices, Wide Screens //
+//@media only screen and (max-width : 1200px) {
+//
+//}
+//
+// Medium Devices, Desktops //
+//@media only screen and (max-width : 992px) {
+//
+//}
+//
+// Small Devices, Tablets //
+@media only screen and (max-width : 768px) {
+  .menu {
+    ul {
+      padding-top: 100px;
+    }
+  }
+  .wrap {
+    margin-bottom: 100px;
+  }
+  .email{
+    font-size: 2em;
+  }
+}
+//
+// Extra Small Devices, Phones //
+@media only screen and (max-width : 480px) {
+  .mouse{
+    top: -100px;
+  }
+}
+//
+// Custom, iPhone Retina //
+//@media only screen and (max-width : 320px) {
+//
+//}
+//
+//
+///*=====  Mobile First Method  =====*/
+//
+// Custom, iPhone Retina //
+//@media only screen and (min-width : 320px) {
+//
+//}
+//
+// Extra Small Devices, Phones //
+//@media only screen and (min-width : 480px) {
+//
+//}
+//
+// Small Devices, Tablets //
+//@media only screen and (min-width : 768px) {
+//
+//}
+//
+// Medium Devices, Desktops //
+//@media only screen and (min-width : 992px) {
+//
+//}
+//
+// Large Devices, Wide Screens //
+//@media only screen and (min-width : 1200px) {
+//
+//}
+//
+///* =====  Screen orientation  ===== */
+//
+// Landscape orientation //
+//@media screen and (orientation: landscape) {
+//
+//}
+//
+// Portrait orientation //
+//@media screen and (orientation: portrait) {
+//
+//}
+///* =====  CSS media query End  ===== */
+//
+/* ==========  Fonts Start ========== */
+
+@media (min-width: 660px) {
+  body {
+    font-size: large;
+  }
+  .top_text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 660px) {
+  body {
+    font-size: medium;
+  }
+  .top_text {
+    font-size: 10px;
+    h1{
+      border: 6px solid #fff;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .top_text {
+    font-size: 7px;
+    h1{
+      border: 5px solid #fff;
+    }
+  }
+}
+
+/* ==========  Fonts End ========== */
